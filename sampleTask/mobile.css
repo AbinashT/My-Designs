@@ -1,0 +1,114 @@
+:root {
+    --bg-color-1: rgb(242, 231, 213);
+    --bg-color-2: rgb(153, 56, 14);
+    --bg-color-3: rgb(255, 255, 255);
+}
+
+@media all and (max-width:431px) {
+
+    .banner-section,
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .banner-head {
+        font-size: 60px
+    }
+
+    .about-food-name {
+        font-size: 40px;
+    }
+
+    .foodimage-option {
+        height: 200px;
+    }
+
+    .video-container {
+        width: 100%;
+        aspect-ratio: 4/3;
+    }
+
+    .client-photo-1 {
+        border: none;
+    }
+
+    .v-line-news,
+    .news-photo-1,
+    .news-photo-2 {
+        border: none;
+        visibility: collapse;
+    }
+
+    .about-section,
+    .bread-types-2,
+    .news-content {
+        padding: 10px 20px;
+        background-color: var(--bg-color-1);
+    }
+
+    .feedback-content,
+    .bottom-section-container,
+    .footer {
+        padding: 10px 20px;
+    }
+
+    .about-food-option{
+        padding: 10px 20px;
+    }
+
+    .food-options{
+        padding: 0px 5px;
+    }
+    .food-option{
+        font-size: 12px;
+    }
+
+    .food-name-option{
+        font-size: 30px;
+    }
+
+    .food-image-option{
+        visibility: collapse;
+    }
+
+    .about-foods,
+    .bread-types-1,
+    .homemade-breads-1,
+    .homemade-breads-2,
+    .client-content,
+    .news-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-container {
+        padding: 10px 20px;
+        background-color: var(--bg-color-3);
+        display: flex;
+    }
+
+    .logo-image {
+        height: 60px;
+    }
+
+    #email {
+        width: 300px;
+    }
+
+    .sub-btn {
+        border: none;
+        font-size: 12px;
+    }
+
+    .btm-sec-text-size {
+        font-size: 10px;
+    }
+
+    .fa-facebook,
+    .fa-twitter,
+    .fa-instagram,
+    .fa-linkedin-in {
+        padding: 5px;
+    }
+}

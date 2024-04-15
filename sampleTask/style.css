@@ -1,0 +1,474 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+}
+
+
+.cormorant {
+    font-family: "Cormorant", serif;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+
+.banner-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./mainBackgroundPic.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-grow: 3;
+    padding: 5px 200px;
+
+}
+
+.banner-head-section {
+    flex-grow: 6;
+    text-align: center;
+    color: white;
+    padding: 0 200px;
+
+}
+
+.logo {
+    height: 15vh;
+    width: 15vh;
+    cursor: pointer;
+}
+
+.nav-logo {
+    flex-grow: 3;
+}
+
+.nav-links {
+    flex-grow: 3;
+    padding-top: 10px;
+}
+
+ul.navbar{
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-links .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 10px;
+}
+
+.nav-icons {
+    flex-grow: 3;
+    padding-top: 10px;
+    text-align: end;
+}
+
+.fa-magnifying-glass, .fa-bag-shopping {
+    color: rgb(222, 222, 222);
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.banner-head {
+    font-size: 115px;
+}
+
+
+.shopnow-btn {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: rgba(242, 231, 213, 255);
+    border: none;
+    margin-top: 40px;
+    padding: 20px 50px;
+    color: rgb(35, 35, 35);
+}
+
+.about-section {
+    padding: 100px 200px;
+    background-color: rgb(242, 231, 213);
+
+}
+
+
+.about-title-cursive {
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+.page-titles {
+    font-size: 37px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.page-content {
+    font-size: 12px;
+    color: rgb(58, 58, 58);
+    line-height: 2;
+}
+
+.about-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.about-food-name {
+    float: left;
+    font-size: 75px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.about-food-image {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-foods {
+    display: flex;
+    
+}
+
+.about-food {
+    flex-grow: 5;
+    justify-content: space-evenly;
+}
+
+.about-link {
+    color: black;
+    padding: 15px;
+}
+
+.about-food-content {
+    padding: 15px;
+}
+
+
+.bread-types-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-breads {
+    padding-top: 100px;
+}
+
+.bread-type {}
+
+.bread-type-img {
+    height: 225px;
+    width: 250px;
+    padding: 15px;
+}
+
+.bread-mtitle {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.bread-name {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.bread-cost {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 450;
+}
+
+.about-food-details {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+
+#food-option-select {
+    text-decoration: none;
+    border: none;
+    overflow-y: none;
+    outline: none;
+    background-color: rgb(242, 231, 213);
+}
+
+
+#food-option-select option {
+    border-right: 1px solid brown;
+}
+
+#food-option-select option:checked {
+    color: brown;
+    border-right: 4px solid brown;
+    /* border-radius: 100px; */
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.food-option {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.foodimage-option {
+    padding-left: 15px;
+}
+
+.food-name-option {
+    font-size: 40px;
+}
+
+.food-content-option {
+    /* letter-spacing: 1px; */
+    padding-bottom: 30px;
+}
+
+.food-nutrients-option {
+    list-style: none;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.video-container {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bread-types-2 {
+    background-color: rgb(242, 231, 213);
+    padding: 100px 200px;
+
+}
+
+.homemade-breads-1 {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.homemade-breads-2 {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+
+.card-bread-types {
+    padding: 10px;
+}
+
+#bread-types-photo {
+    height: auto;
+    width: 240px;
+}
+
+.feedback-content {
+    padding: 100px 300px;
+}
+
+.client-photo-1 {
+    padding: 20px 50px 20px 0;
+    border-right: 1px solid rgb(139, 139, 139);
+}
+
+.client-content {
+    display: flex;
+}
+
+.client-details {
+    padding-top: 60px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.client-name,
+.client-position {
+    display: inline;
+}
+
+.client-name {
+    font-size: 35px;
+}
+
+.client-position {
+    font-size: 14px;
+}
+
+.news-content {
+    padding: 100px 200px;
+    background-color: rgb(242, 231, 213);
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news-section-1 {
+    flex: 2;
+    padding: 100px 100px 100px 0;
+}
+
+.news-section-2 {
+    flex: 2;
+    padding: 100px 0 100px 100px;
+}
+
+.v-line-news {
+    border-left: 1px solid rgb(139, 139, 139);
+    height: 450px;
+}
+
+.news-date {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.news-title {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.news-button {
+    padding: 20px 40px;
+    color: white;
+    background-color: rgb(153, 56, 14);
+    border: none;
+}
+
+.logo-container {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-image {
+    flex: 2;
+    height: 120px;
+}
+
+.bottom-section-container {
+    padding: 100px 200px;
+    background-color: rgb(153, 56, 14);
+    color: white;
+
+}
+
+#email {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(153, 56, 14);
+    align-items: center;
+    width: 500px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+.sub-btn {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    background-color: rgb(153, 56, 14);
+    color: sandybrown;
+}
+
+.email-subscribe {
+    text-align: center;
+    padding: 30px;
+}
+
+.company-info{
+    display: flex;
+}
+
+.contact{
+    text-align: left;
+    flex: 3;
+}
+
+.cmp-info-topic{
+    font-size: 25px;
+    padding: 15px 0;
+}
+
+.bakery-logo{
+    text-align: center;
+    flex: 3;
+}
+
+.work-hour-info{
+    text-align: right;
+    flex: 3;
+}
+
+.footer{
+    padding: 20px 200px;
+    background-color: rgb(224,172,124);
+    color:rgb(153, 56, 14);
+    text-align: center;
+}
+
+.btm-sec-text-size{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-linkedin-in{
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.btm-sec-pad{
+    padding: 10px 0;
+}
+
+.fa-location-dot, .fa-phone-flip, .fa-envelope{
+    padding-right: 10px;
+}

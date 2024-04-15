@@ -1,0 +1,188 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding: 20px 35px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px rgb(205, 205, 205);
+}
+
+
+.child-1 {
+    flex-grow: 2;
+}
+
+.child-2 {
+    flex-grow: 30;
+}
+
+.child-3 {
+    flex-grow: 3;
+}
+
+.nav-title {
+    font-size: 22px;
+}
+
+.nav-buttons {
+    background: none;
+    border: none;
+    margin-inline: 20px;
+    font-size: 16px;
+}
+
+.nav-buttons:hover {
+    font-weight: 600;
+}
+
+.about-page-btn {
+    color: orangered;
+}
+
+.contact-page-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-inline: 20px;
+    background-color: rgba(222, 210, 210, 0.2);
+    /* background-color: brown; */
+    color: orangered;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+
+}
+
+.contact-page-btn:hover {
+    background-color: rgba(175, 164, 164, 0.2);
+}
+
+.about-page {
+    padding: 50px 300px;
+}
+
+.topic-1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.whitepaper-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 18px 30px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.topic-1 {
+    font-size: 56px;
+}
+
+.topic-2 {
+    /* text-decoration-line: line-through;
+    text-decoration-thickness: 30px;
+    text-decoration-color: orangered;
+    display: inline-block; */
+
+    font-size: 56px;
+
+}
+
+.topic-2-mark {
+    background: linear-gradient(to top, rgb(253, 114, 64) 60%, white 50%);
+}
+
+.topic-3 {
+    font-size: 32px;
+    background: linear-gradient(to top, rgb(240, 240, 240) 60%, white 50%);
+}
+
+.content-1 {
+    font-size: 20px;
+}
+
+.content-2 {
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.footer-hr {
+    padding: 0px 35px;
+}
+
+.footer {
+    padding: 15px 35px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.rights-text {
+    font-weight: lighter;
+    font-size: 10px;
+    color: rgb(192, 189, 189);
+}
+
+.footer-ch-1 {
+    flex-grow: 20;
+}
+
+.footer-ch-2 {
+    flex-grow: 200;
+}
+
+.footer-ch-3 {
+    flex-grow: 1;
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.contact-page-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.fa-twitter {
+    color: skyblue;
+}
+
+.fa-discord {
+    color: rgb(149, 154, 255);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-instagram {
+    color: palevioletred;
+}
+
+.fa-facebook {
+    color: darkturquoise;
+}
+
+.fa-telegram {
+    color: cadetblue;
+}
+
+.fa-medium {
+    color: black;
+}
